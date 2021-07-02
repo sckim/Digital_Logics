@@ -1,0 +1,24 @@
+|ExampleCollection
+/Q_sr <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+CP_sr => inst5.IN0
+CP_sr => inst.IN1
+R => inst5.IN1
+S => inst.IN0
+Q_sr <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Q_jk <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+ClrN_j => inst8.ACLR
+K => inst8~1.IN0
+J => inst8~0.IN1
+CP_jk => inst8.CLK
+Q_d <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+D => inst20.IN0
+D => inst15.IN1
+CP_d => inst16.IN1
+CP_d => inst15.IN0
+/Q_d <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+Q_t <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+ClrN_t => inst23.ACLR
+T => inst23~0.IN0
+CP_t => inst23.CLK
+
+
