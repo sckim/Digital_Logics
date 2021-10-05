@@ -1,0 +1,9 @@
+db
+incremental_db
+*.rpt
+*.done
+*.smsg
+*.summary
+*.jdi
+*.qws
+*.temp
